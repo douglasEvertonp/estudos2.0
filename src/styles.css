@@ -8,7 +8,9 @@
 }
 
 .title {
-  font-size: 70px;
+  margin: 150px 0 0 0;
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: aliceblue;
   animation-duration: 3s;
   animation-name: slidein;
@@ -51,22 +53,25 @@
 
 .main {
     width: 300px;
-    height: 200px;
+    height: 300px;
     background-color: #f1f1f1;
     display: flex;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
     border-radius: 8px;
     box-shadow: 2px 3px 5px 4px #121212;
 }
 
 .main h2{
-    margin: 16px 0;
+
+    margin: 16px 10px;
     font-size: 30px;
     color: darkred;
   }
 
   .main span{
+
+   margin-left: 10px;
    margin-bottom: 16px;
    font-size: 18px;
    font-weight: bold;
